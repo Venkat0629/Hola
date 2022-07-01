@@ -22,9 +22,7 @@ public class HolaCarsServiceImpl implements HolaCarsService {
 		this.holaCarsDAO = holaCarsDAO;
 
 	}
-	/*The method should validate the car details received using validate(List<Car> car) 
-method of Validator class
-*/
+	
 
 	@Override
 	public String addCarToShowRoom(ShowRoom showRoom) throws HolaCarException {
